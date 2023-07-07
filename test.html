@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Video as Audio</title>
+</head>
+<body>
+  <button onclick="playVideoAsAudio('SzJGg3MajuI')">Play Video as Audio</button>
+
+  <script>
+    function playVideoAsAudio(videoId) {
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&controls=0&loop=1&playlist=' + videoId;
+      iframe.width = '1';
+      iframe.height = '1';
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+    }
+  </script>
+</body>
+</html>
