@@ -21,6 +21,8 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <script src="datahandler/podcast.js"></script>
+
 </head>
 <body>
 
@@ -79,7 +81,7 @@
           </div>
         </div>
       </div>
-      
+    
     </header>
 
     
@@ -255,120 +257,9 @@
           -->
 
 
-<!--Episodes Section-->
+          <!--Episodes Section-->
+          <div class="col-lg-9" id="podcastEpisodes">
 
-          <div class="col-lg-9">
-  
-            <!-- <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <div class="image" style="background-image: url('images/ep8.jpg'); margin-left: 20px; margin-right: 20px;"></div>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">Joe Rogan and Ice Cube talk about Bud Light Boycott</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>By JRE snips & clips Smith <span class="sep">/</span> 30 June 2023 <span class="sep">/</span> Episode #2004</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div> -->
-            
-            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <a href="single-post.html">
-                <div class="image" style="background-image: url('/images/ep8.jpg'); margin-left: 20px; margin-right: 20px; width: 200px; height: 200px;"></div>
-              </a>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">Joe Rogan and Ice Cube talk about Bud Light Boycott</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>By JRE snips & clips Smith <span class="sep">/</span> 30 June 2023 <span class="sep">/</span> Episode #2004</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div>
-            
-            
-
-            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <a href="single-post.html">
-                <div class="image" style="background-image: url('/images/black.jpg'); margin-left: 20px; margin-right: 20px; width: 200px; height: 200px;"></div>
-              </a>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">EPISODE 4</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>10101010101<span class="sep">/</span>1010101010<span class="sep">/</span>1010101010</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <a href="single-post.html">
-                <div class="image" style="background-image: url('/images/black.jpg'); margin-left: 20px; margin-right: 20px; width: 200px; height: 200px;"></div>
-              </a>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">EPISODE 3</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>1010101010<span class="sep">/</span>1010101010<span class="sep">/</span>1010101010</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <a href="single-post.html">
-                <div class="image" style="background-image: url('/images/black.jpg'); margin-left: 20px; margin-right: 20px; width: 200px; height: 200px;"></div>
-              </a>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">EPISODE 2</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>1010101010<span class="sep">/</span>1010101010<span class="sep">/</span>1010101010</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
-              <a href="single-post.html">
-                <div class="image" style="background-image: url('/images/black.jpg'); margin-left: 20px; margin-right: 20px; width: 200px; height: 200px;"></div>
-              </a>
-              <div class="text">
-                <h3 class="font-weight-light"><a href="single-post.html" style="color: #f6436d;">EPISODE 1</a></h3>
-                <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>1010101010<span class="sep">/</span>1010101010<span class="sep">/</span>1010101010</small></span></div>
-                <div class="player">
-                  <audio id="player8" preload="none" controls style="max-width: 100%">
-                    <source src="https://www.youtube.com/embed/SzJGg3MajuI?autoplay=1&rel=0" type="">
-                  </audio>
-                </div>
-              </div>
-            </div>
-             
-                    <div class="container" data-aos="fade-up">
-                      <div class="row">
-                        <div class="col-md-12 text-center">
-                          <div class="site-block-27">
-                            <ul>
-                              <li><a href="#" class="icon-keyboard_arrow_left"></a></li>
-                              <li class="active"><span>1</span></li>
-                              <li><a href="#">2</a></li>
-                              <li><a href="#">3</a></li>
-                              <li><a href="#">4</a></li>
-                              <li><a href="#">5</a></li>
-                              <li><a href="#" class="icon-keyboard_arrow_right"></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

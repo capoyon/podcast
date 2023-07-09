@@ -1,0 +1,122 @@
+[
+    {
+        "position": "HEAD PODCASTERS",
+        "members": [
+            {
+                "name": "Chylene Saraspa",
+                "designation": "Founder",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    },
+    {
+        "position": "SYSTEM DEVELOPMENT PODCASTERS",
+        "members": [
+            {
+                "name": "Paul Baquero",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Jane Smith",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    },
+    {
+        "position": "SOFTWARE DEVELOPMENT",
+        "members": [
+            {
+                "name": "Myla Torreon",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Jenecil Patac",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Rhea Jagunos",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Marvin Paongilan",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Paul Baquero",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    },
+    {
+        "position": "SYSTEM ADMINISTRATION",
+        "members": [
+            {
+                "name": "Almer John Lauigan",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Ricky Mae Orilla",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    },
+    {
+        "position": "DIGITAL MARKETING",
+        "members": [
+            {
+                "name": "Mary Ann Chato",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Jollymarie Lumanas",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Jasper Joshua Geolagon",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Paul Baquero",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    },
+    {
+        "position": "CREATIVE TEAM",
+        "members": [
+            {
+                "name": "Eric Maglajos",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Jerico Lumantas",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "Justin Corpuz",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            },
+            {
+                "name": "James Keneth Rasonabe",
+                "designation": "Junior",
+                "photo": "https://example.com/profile-placeholder"
+            }
+        ]
+    }
+]
