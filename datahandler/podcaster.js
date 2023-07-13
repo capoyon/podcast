@@ -8,7 +8,7 @@ function addPosition(position){
 function addMemberDiv(picture, name, designation ) {
   // Create the HTML structure for the div
   var div = document.createElement("div");
-  div.className = "row";
+  div.className = "carousel-item-right";
   div.setAttribute("data-aos", "fade-up");
   div.innerHTML = `
   <div class="col-md-3">
