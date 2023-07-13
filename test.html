@@ -59,31 +59,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">ZionLab Podcast</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Browse</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Radio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Library</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="jumbotron text-center">
+  <!-- <div class="jumbotron text-center">
     <h1 class="display-4">Software Development Podcast</h1>
     <p class="lead"></p>
   </div>
@@ -105,8 +82,31 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+  <div class="container">
 
+    <div id="podcastEpisodes">
+
+      <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
+        <div class="image" style="background-image: url('images/img_1.jpg');"></div>
+        <div class="text">
+
+          <h3 class="font-weight-light"><a href="single-post.html">Episode 08: How To Create Web Page Using Bootstrap 4</a></h3>
+          <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small></span></div>
+
+
+          <div class="player">
+            <audio id="player2" preload="none" controls style="max-width: 100%">
+              <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
+              </audio>
+          </div>
+
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
