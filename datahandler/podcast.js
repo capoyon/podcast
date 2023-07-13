@@ -78,7 +78,7 @@ function addPodcastDiv(title, author, date, episodeNumber, link, thumbnail, play
       <div class="text-white mb-3"><span class="text-black-opacity-05" style="color: black;"><small>By ${author} <span class="sep">/</span> ${date} <span class="sep">/</span> Episode #${episodeNumber}</small></span></div>
       <div class="player">
         <audio id="player${playerId}" preload="none" controls style="max-width: 100%">
-          <source src="${link}" type="">
+          <source src="${link}">
         </audio>
       </div>
     </div>
