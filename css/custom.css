@@ -1,21 +1,21 @@
 body {
-    background-color: #121212; /* Set the background color to Spotify black */
-    color: #ffffff; /* Set the text color to white */
+    background-color: #ffffff; /* Set the background color to Spotify black */
+    color: #000000; /* Set the text color to white */
     font-weight: bold; /* Make the font bolder */
     padding-top: 100px;
   }
 
   .navbar {
-    background-color: #121212; /* Set the navbar background color to Spotify black */
-    border-color: #000000; /* Set the navbar border color to Spotify black */
+    background-color: #ffffff; /* Set the navbar background color to Spotify black */
+    border-color: #6e6e6e; /* Set the navbar border color to Spotify black */
   }
 
   .navbar .navbar-brand {
-    color: #ffffff; /* Set the brand text color to Spotify pink */
+    color: #000000; /* Set the brand text color to Spotify pink */
   }
 
   .navbar .navbar-nav .nav-link {
-    color: #ffffff; /* Set the link text color to white */
+    color: #000000; /* Set the link text color to white */
   }
 
   .jumbotron {
