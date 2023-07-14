@@ -1,0 +1,48 @@
+body {
+    background-color: #121212; /* Set the background color to Spotify black */
+    color: #ffffff; /* Set the text color to white */
+    font-weight: bold; /* Make the font bolder */
+    padding-top: 100px;
+  }
+
+  .navbar {
+    background-color: #121212; /* Set the navbar background color to Spotify black */
+    border-color: #000000; /* Set the navbar border color to Spotify black */
+  }
+
+  .navbar .navbar-brand {
+    color: #ffffff; /* Set the brand text color to Spotify pink */
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff; /* Set the link text color to white */
+  }
+
+  .jumbotron {
+    background-color: transparent; /* Set the jumbotron background color to transparent */
+  }
+
+  /* Custom CSS styles for Spotify theme */
+  .container {
+    padding: 20px;
+  }
+
+  .video-card {
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .video-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .video-card h4 {
+    margin-top: 10px;
+  }
+
+  .video-card p {
+    color: #b3b3b3;
+  }
